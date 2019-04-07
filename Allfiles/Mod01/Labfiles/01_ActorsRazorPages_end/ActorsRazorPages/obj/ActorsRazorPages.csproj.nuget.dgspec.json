@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {}
+  },
+  "projects": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
+        "projectName": "ActorsRazorPages",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
