@@ -1,0 +1,14 @@
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\bin\Debug\netcoreapp2.1\StaticFilesExample.deps.json
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\bin\Debug\netcoreapp2.1\StaticFilesExample.runtimeconfig.json
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\bin\Debug\netcoreapp2.1\StaticFilesExample.runtimeconfig.dev.json
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\bin\Debug\netcoreapp2.1\StaticFilesExample.dll
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\bin\Debug\netcoreapp2.1\StaticFilesExample.pdb
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.csprojAssemblyReference.cache
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.csproj.CoreCompileInputs.cache
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.RazorAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.RazorAssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.AssemblyInfoInputs.cache
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.AssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.RazorTargetAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.dll
+G:\Classes\20486D\Allfiles\Mod03\Democode\02_StaticFilesExample_end\StaticFilesExample\obj\Debug\netcoreapp2.1\StaticFilesExample.pdb
