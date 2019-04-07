@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VouchersDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="VouchersDBModelStoreContainer">
+    <EntitySet Name="Accounts" EntityType="VouchersDBModel.Store.Accounts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VoucherDetails" EntityType="VouchersDBModel.Store.VoucherDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Vouchers" EntityType="VouchersDBModel.Store.Vouchers" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_VoucherDetails_Accounts" Association="VouchersDBModel.Store.FK_VoucherDetails_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="VoucherDetails" EntitySet="VoucherDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VoucherDetails_Vouchers" Association="VouchersDBModel.Store.FK_VoucherDetails_Vouchers">
+      <End Role="Vouchers" EntitySet="Vouchers" />
+      <End Role="VoucherDetails" EntitySet="VoucherDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Type" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VoucherDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="VoucherID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AccountID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Amount" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Vouchers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Paid" Type="bit" Nullable="false" />
+    <Property Name="Scan" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_VoucherDetails_Accounts">
+    <End Role="Accounts" Type="VouchersDBModel.Store.Accounts" Multiplicity="1" />
+    <End Role="VoucherDetails" Type="VouchersDBModel.Store.VoucherDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetails">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VoucherDetails_Vouchers">
+    <End Role="Vouchers" Type="VouchersDBModel.Store.Vouchers" Multiplicity="1" />
+    <End Role="VoucherDetails" Type="VouchersDBModel.Store.VoucherDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vouchers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetails">
+        <PropertyRef Name="VoucherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

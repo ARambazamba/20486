@@ -1,0 +1,236 @@
+﻿@import url('responsive.css');
+@import url('bootstrap.min.css');
+@import url('responsive.css');
+@import url('icons.css');
+@import url('datepicker.css');
+
+body{
+	background:#ececec;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color:#666666;
+	line-height:1.7em;
+	text-align:left;
+}
+.spacer-big {
+    display: block;
+    line-height: 1;
+    margin: 10px 0;
+}
+#container{
+	margin:0 auto;
+	/*overflow:auto;*/
+	clear:both;
+    display: block;
+}
+#main {
+    position: relative;
+    display: block;
+    margin: 0;padding: 0;
+}
+.main-header img#logo{
+	margin:10px 0;
+	width:45%;
+}
+
+.main-nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+.nav-li {
+    position: relative;
+    cursor: pointer;
+}
+#content{
+    background: #f7f4f3;
+
+	float:left;
+    text-align: justify;
+    padding: 10px       
+}
+
+#sidebar{
+    background: #f7f4f3;
+
+	float:right;
+    text-align: justify;
+    padding: 10px
+}
+
+.logo {
+    background-image: url('/images/bills.jpg'); background-size: cover; width: 100%; height: 180px; background-repeat: no-repeat;
+}
+.nav-details {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-details li {
+    position: relative;
+    margin: 0 5px 0 0;
+    padding: 5px;
+    float: left;
+    cursor: pointer;
+}
+ .form-inline .form-group {
+      
+        margin-bottom: 10px;
+    }
+.tblVoucher {
+    width: 100%;
+    margin: 0;
+    display: table;
+}
+.table>thead>tr>th {
+    background-color: #ECECEC;
+    border-top: 1px solid #ddd;
+}
+ .tbl {
+    display: table;
+    width: 100%;
+}
+
+ .tblRow {
+    display: table-row;
+    width: 100%
+ }
+
+ .tblRow div {
+     padding-left: 10px;
+     padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle
+ }
+
+ .action-nav {
+    -webkit-padding-start: 0px;
+}
+
+.action-nav li {
+    display: inline;
+}
+
+.div-left-margin {
+    padding-left: 10px;
+     padding-right: 10px;
+}
+
+input, select{ 
+    width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto !important;
+}
+
+select#ddAccount {
+    width: 200px !important;
+}
+
+tr.current,tr.current:hover {
+    background-color: lightblue;
+}
+/*#region ELEMENTS*/
+.readonlyID {
+    width: auto;
+    border: 0;
+    background: transparent;
+
+}
+.legendTitle {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.legendTitle div[class*=col-] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.kpi, .voucherRadio, .ulDetailsBtn, .voucherListBtn {
+    position: relative;
+    display: block;
+    margin: 0;padding: 0;
+    list-style: none;
+}
+.kpi li, .voucherRadio li, .ulDetailsBtn li {
+    position: relative;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: left;
+}
+
+.voucherRadio li span{
+position: relative;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    padding: 0;
+    bottom: 2px;
+}
+.voucherListBtn li {
+    position: relative;
+    float: left;
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+.voucherListBtn li > a {
+    position: relative;
+    margin: 0 5px 0 0;
+    display: block;
+}
+.voucherListBtn li > input {
+    position: relative;
+    margin: 0 0 5px 0;
+    display: block;
+}
+.txtElement {
+    width: 100% !important;
+    display: block;
+}
+.txtBox {
+    width: 100% !important;
+}
+.legendDiv {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.input-sm, .form-group-sm .form-control {
+    margin-bottom: 5px;
+}
+/*#endregion*/
+
+
+
+/*#region HELPER*/
+.navbar-brand a{
+    color: #777;
+}
+.left {
+    position: relative;
+    float: left;
+}
+.right {
+    position: relative;
+    float: right;
+}
+.backBtn {
+    margin-bottom: 5px;
+}
+/*#endregion*/

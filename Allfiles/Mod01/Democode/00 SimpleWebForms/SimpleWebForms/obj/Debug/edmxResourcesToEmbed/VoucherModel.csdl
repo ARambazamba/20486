@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VouchersDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="VoucherDetails" Relationship="Self.FK_VoucherDetails_Accounts" FromRole="Accounts" ToRole="VoucherDetails" />
+  </EntityType>
+  <EntityType Name="VoucherDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="VoucherID" Type="Guid" Nullable="false" />
+    <Property Name="AccountID" Type="Guid" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Account" Relationship="Self.FK_VoucherDetails_Accounts" FromRole="VoucherDetails" ToRole="Accounts" />
+    <NavigationProperty Name="Voucher" Relationship="Self.FK_VoucherDetails_Vouchers" FromRole="VoucherDetails" ToRole="Vouchers" />
+  </EntityType>
+  <EntityType Name="Voucher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Text" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Paid" Type="Boolean" Nullable="false" />
+    <Property Name="Scan" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="VoucherDetails" Relationship="Self.FK_VoucherDetails_Vouchers" FromRole="Vouchers" ToRole="VoucherDetails" />
+  </EntityType>
+  <Association Name="FK_VoucherDetails_Accounts">
+    <End Role="Accounts" Type="Self.Account" Multiplicity="1" />
+    <End Role="VoucherDetails" Type="Self.VoucherDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetails">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VoucherDetails_Vouchers">
+    <End Role="Vouchers" Type="Self.Voucher" Multiplicity="1" />
+    <End Role="VoucherDetails" Type="Self.VoucherDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vouchers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetails">
+        <PropertyRef Name="VoucherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="VouchersDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="VoucherDetails" EntityType="Self.VoucherDetail" />
+    <EntitySet Name="Vouchers" EntityType="Self.Voucher" />
+    <AssociationSet Name="FK_VoucherDetails_Accounts" Association="Self.FK_VoucherDetails_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="VoucherDetails" EntitySet="VoucherDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VoucherDetails_Vouchers" Association="Self.FK_VoucherDetails_Vouchers">
+      <End Role="Vouchers" EntitySet="Vouchers" />
+      <End Role="VoucherDetails" EntitySet="VoucherDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

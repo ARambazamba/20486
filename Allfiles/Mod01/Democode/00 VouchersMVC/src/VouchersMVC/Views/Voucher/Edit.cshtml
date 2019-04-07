@@ -1,0 +1,170 @@
+﻿@using Newtonsoft.Json
+@model VoucherDetailsViewModel
+@{
+    //Just there to show that you can manipulate the model in a Razor block
+    var details = @Model.Details;
+    var ed = @Model.EditDetail;
+    var vAmount = @Model.CurrentVoucher.Amount.ToString().Replace(",", ".");
+}
+
+<script type="text/javascript">
+    //serialzes the view model & makes it available for JS
+    var data = @Html.Raw(JsonConvert.SerializeObject(Model));
+</script>
+<script src="~/js/voucherDetails.js"></script>
+
+<form method="post">
+    <div id="divVoucherHead" class="container">
+        <div class="row clearfix">
+
+            <!--Voucher Head Data-->
+
+            <div class="legendTitle clearfix">
+                <div class="col-md-8 col-sm-8 col-xs-6">
+                    <span>Voucher &nbsp;</span><input asp-for="CurrentVoucher.ID" readonly class="readonlyID" style="width: 45px;" />
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6">
+
+                    <ul class="voucherListBtn">
+                        <li><a id="btnBack" asp-controller="Voucher" asp-action="Index" class="btn btn-xs btn-default">Back</a></li>
+                        <li><input type="submit" name="ActionBtn" value="Save Voucher" class="btn btn-xs btn-default" /></li>
+                    </ul>
+                </div>
+            </div>
+            <fieldset class="form-inline">
+                <div class="form-group">
+                    <input id="VoucherText" asp-for="CurrentVoucher.Text" size="45" type="text" placeholder="Text:" class="form-control input-sm" />
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="CurrentVoucher.Date" id="dpDate" size="10" type="text" placeholder="Date:" class="span7 form-control input-sm" />
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="CurrentVoucher.Amount" id="txtAmount" size="15" type="text" placeholder="0" class="span7 form-control input-sm" />
+                </div>
+
+                <div class="form-group">
+                    <ul class="voucherRadio">
+                        <li>
+                            <input type="radio" asp-for="CurrentVoucher.Expense" name="CurrentVoucher.Expense" value="true" id="rbExpense" checked="checked">
+                            <span class="small">Expense:</span>
+                        </li>
+                        <li>
+                            <input type="radio" name="CurrentVoucher.Expense" value="false" id="rbIncome"  />
+                            <span class="small">Income:</span>
+                        </li>
+                        <li>
+                            <input asp-for="CurrentVoucher.Paid" value="true" type="checkbox" name="checkboxes" id="chkPaid" />
+                            <span class="small">Paid:</span>
+                        </li>
+                        <li>
+                            <input asp-for="CurrentVoucher.Remark" value="true"  type="checkbox" name="checkboxes" id="chkRemark" />
+                            <span class="small">Remember:</span>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="row clearfix">&nbsp;</div>
+    @if (Model.Details != null)
+    {
+        <div class="container">
+            <div class="row clearfix">
+                <!--Voucher Details Table-->
+
+                <div class="legendTitle">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <span class="left">All Details &nbsp;</span>
+                    </div>
+                </div>
+
+                <div class="row clearfix"> </div>
+                <p class="spacer-big"></p>
+                <fieldset class="form-horizontal">
+                    <div class="table-responsive">
+                        <table cellspacing="0" cellpadding="0" class="table table-hover">
+                            <colgroup>
+                                <col class="col-xs-1" />
+                                <col class="col-xs-4" />
+                                <col class="col-xs-1" />
+                                <col class="col-xs-3" />
+                                <col class="col-xs-3" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Text</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Account</th>
+                                    <th scope="col">
+                                        <a id="btnNew" href="javascript:newDetail()" class="right btn btn-xs btn-default">New</a>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblVoucherDetailsBody">
+                                @foreach (var vd in Model.Details)
+                                {
+                                    <tr>
+                                        <td class="readonlyID">@vd.ID</td>
+                                        <td> @vd.Text </td>
+                                        <td class="detailsAmountItem"> @vd.Amount </td>
+                                        <td> @vd.Account.Name </td>
+                                        <td>
+                                            <div class="right btn-group">
+                                                <a class="btn btn-xs btn-default" role="button" href="@Url.Action("DeleteDetail", "Voucher", new {DetailID = vd.ID, VoucherID = Model.CurrentVoucher.ID})">Delete</a>                         
+                                                <a href="javascript:setDetail(@vd.ID)" role="button" class="btn btn-xs btn-default">Edit</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </fieldset>
+
+            </div>
+        </div>
+    <!--Selected Voucher Details-->
+        <div class="container">
+            <div class="row clearfix vDetails">
+                <div class="legendTitle clearfix">
+                    <div class="col-md-8 col-sm-8 col-xs-6">
+                        <span>Current Detail</span>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+
+                        <ul class="voucherListBtn">
+                           <li><input type="submit" name="ActionBtn" id="SaveDetail" value="Save Detail" class="btn btn-xs btn-default" /></li>
+                        </ul>
+                    </div>
+                </div>
+                <fieldset class="form-inline">
+                    <div class="form-group">
+                        <input asp-for="EditDetail.ID" id="txtDetailsID" type="text" novalidate readonly class="form-control input-sm vdElement" />
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="EditDetail.Text" id="txtDetailsText" size="50" type="text" placeholder="Text:" class="form-control input-sm vdElement" />
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="EditDetail.Amount" id="txtDetailsAmount" size="15" type="number" class="form-control input-sm vdElement" />
+                    </div>
+                    <div class="form-group">
+                        <select asp-for="EditDetail.AccountID" id="ddAccount" class="form-control input-sm vdElement">
+                            @foreach (var acct in Model.Accounts)
+                            {
+                                <option value="@acct.ID">@acct.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group txtBox">
+                        <textarea class="form-control txtElement vdElement" rows="4" id="txtComment" placeholder="Comment"></textarea>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    }
+</form>

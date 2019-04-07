@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e87b18af0ee64cb3a4aaa57d92eb1268" Name="Diagram1">
+        <EntityTypeShape EntityType="VouchersDBModel.Account" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VouchersDBModel.VoucherDetail" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VouchersDBModel.Voucher" Width="1.5" PointX="5" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="VouchersDBModel.FK_VoucherDetails_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="VouchersDBModel.FK_VoucherDetails_Vouchers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

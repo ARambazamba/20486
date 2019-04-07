@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VouchersDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="VouchersDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Account" EntityType="VouchersDBModel.Account" />
+    <EntitySet Name="Voucher" EntityType="VouchersDBModel.Voucher" />
+    <EntitySet Name="VoucherDetail" EntityType="VouchersDBModel.VoucherDetail" />
+    <AssociationSet Name="FK_VoucherDetails_Accounts1" Association="VouchersDBModel.FK_VoucherDetails_Accounts1">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="VoucherDetail" EntitySet="VoucherDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VoucherDetails_Vouchers1" Association="VouchersDBModel.FK_VoucherDetails_Vouchers1">
+      <End Role="Voucher" EntitySet="Voucher" />
+      <End Role="VoucherDetail" EntitySet="VoucherDetail" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="VoucherDetail" Relationship="VouchersDBModel.FK_VoucherDetails_Accounts1" FromRole="Account" ToRole="VoucherDetail" />
+  </EntityType>
+  <EntityType Name="Voucher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Paid" Type="Boolean" Nullable="false" />
+    <Property Name="Scan" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="VoucherDetail" Relationship="VouchersDBModel.FK_VoucherDetails_Vouchers1" FromRole="Voucher" ToRole="VoucherDetail" />
+  </EntityType>
+  <EntityType Name="VoucherDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="VoucherID" Type="Guid" Nullable="false" />
+    <Property Name="AccountID" Type="Guid" Nullable="false" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Account" Relationship="VouchersDBModel.FK_VoucherDetails_Accounts1" FromRole="VoucherDetail" ToRole="Account" />
+    <NavigationProperty Name="Voucher" Relationship="VouchersDBModel.FK_VoucherDetails_Vouchers1" FromRole="VoucherDetail" ToRole="Voucher" />
+  </EntityType>
+  <Association Name="FK_VoucherDetails_Accounts1">
+    <End Type="VouchersDBModel.Account" Role="Account" Multiplicity="1" />
+    <End Type="VouchersDBModel.VoucherDetail" Role="VoucherDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetail">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VoucherDetails_Vouchers1">
+    <End Type="VouchersDBModel.Voucher" Role="Voucher" Multiplicity="1" />
+    <End Type="VouchersDBModel.VoucherDetail" Role="VoucherDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Voucher">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VoucherDetail">
+        <PropertyRef Name="VoucherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

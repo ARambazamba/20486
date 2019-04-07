@@ -1,0 +1,49 @@
+﻿@inject BalanceService BalanceServ
+@using System.Threading.Tasks
+@model  IEnumerable<Voucher>
+
+<div style="text-align: right; padding-bottom: 10px">
+    <a asp-controller="Voucher" asp-action="Edit"  asp-route-id="0" class="btn btn-xs btn-default">Add a Voucher</a>
+</div>
+
+@*Solution using a Table*@
+
+<div id="tblVoucher" class="tab-content">
+    <table class="table tblVoucher table-striped table-bordered table-hover">
+        <colgroup>
+            <col style="width: 10%"/>
+            <col style="width: 10%"/>
+            <col style="width: 50%"/>
+            <col style="width: 20%"/>
+            <col style="width: 10%"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Date</th>
+            <th>Text</th>
+            <th>Amount</th>
+            <th>Paid</th>
+        </tr>
+        </thead>
+        <tbody id="tblVoucherBody">
+        @foreach (var v in Model)
+        {
+            <tr style="cursor: pointer" onclick="location.href = '@Url.Action("Edit", "Voucher", new {Id = v.ID})'">
+                <td> @v.ID </td>
+                <td> @v.Date.ToString("d") </td>
+                <td> @v.Text </td>
+                <td> @v.Amount </td>
+                <td> @v.Paid </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+<div style="padding-top: 10px">
+    <ul class="kpi">
+        <li>@BalanceServ.GetSumTotal(false)</li>
+        <li>@BalanceServ.GetSumTotal(true)</li>
+    </ul>
+</div>

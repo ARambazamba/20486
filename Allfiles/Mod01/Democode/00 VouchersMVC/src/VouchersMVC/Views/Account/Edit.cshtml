@@ -1,0 +1,20 @@
+﻿@model  Vouchers.BalanceAccount
+<h3>Edit Account</h3> <a asp-controller="Account" asp-action="Index">Back</a>
+
+@using (Html.BeginForm())
+{
+    <label for="AccountID">ID</label>
+    <input id="AccountID" asp-for="ID" readonly="" />
+    <br />
+    <label for="AccountName">Account</label>
+    <input id="AccountName" asp-for="Name"/>
+    <span asp-validation-for="Name"></span>
+    <br />
+    <label for="AccountExpense">Expense Acct</label>
+    <input id="AccountExpense" asp-for="Expense" />
+    <p>
+        <div asp-validation-summary="All"></div>
+    </p>
+    <input type="submit" value="Save Account"/>
+    <br/>
+}

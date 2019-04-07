@@ -1,0 +1,14 @@
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\bin\Debug\netcoreapp2.1\CakeStoreApi.deps.json
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\bin\Debug\netcoreapp2.1\CakeStoreApi.runtimeconfig.json
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\bin\Debug\netcoreapp2.1\CakeStoreApi.runtimeconfig.dev.json
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\bin\Debug\netcoreapp2.1\CakeStoreApi.dll
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\bin\Debug\netcoreapp2.1\CakeStoreApi.pdb
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.csprojAssemblyReference.cache
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.csproj.CoreCompileInputs.cache
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.RazorAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.RazorAssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.AssemblyInfoInputs.cache
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.AssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.RazorTargetAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.dll
+G:\Classes\20486D\Allfiles\Mod01\Labfiles\02_CakeStoreApi_end\CakeStoreApi\obj\Debug\netcoreapp2.1\CakeStoreApi.pdb

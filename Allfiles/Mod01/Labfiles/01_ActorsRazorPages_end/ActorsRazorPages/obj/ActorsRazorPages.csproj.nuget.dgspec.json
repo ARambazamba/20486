@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {}
+    "g:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {}
   },
   "projects": {
-    "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {
+    "g:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
+        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
         "projectName": "ActorsRazorPages",
-        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
+        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\ActorsRazorPages.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\obj\\",
+        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod01\\Labfiles\\01_ActorsRazorPages_end\\ActorsRazorPages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
