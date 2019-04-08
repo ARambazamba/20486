@@ -1,0 +1,13 @@
+﻿@using Vouchers.Models
+@model Vouchers.Models.Person
+    
+
+@if (Model != null)
+{
+    <div>Person: @Model.Name</div>
+
+    foreach (var f in @Model.Friends)
+     {
+         <div>Friend: @f</div>
+     }
+}

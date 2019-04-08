@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" asp-href-include="~/css/style.css"/>
+    <link rel="stylesheet" asp-href-include="/lib/morrisjs/morris.css"/>
+    <script asp-src-include="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script asp-src-include="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script asp-src-include="~/lib/bootstrap/bootstrap-datepicker.js"></script>
+    <script asp-src-include="~/lib/moment/moment.js"></script>
+    <script asp-src-include="~/lib/raphael/raphael.js"></script>
+    <script asp-src-include="~/lib/morrisjs/morris.js"></script>
+</head>
+<body>
+    <div>       
+        <div id="container">
+            <header>
+                <div class="logo">
+                </div>
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <span class="navbar-brand"><a href="@Url.Action("Index","Home")">Voucher Editor</a></span>                          
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li><a asp-controller="Voucher" asp-action="Index">Vouchers</a></li>
+                                <li><a asp-controller="Account" asp-action="Index">Accounts</a></li>
+                                <li><a asp-controller="Statistic" asp-action="Index">Statistics</a></li>
+                                <li><a asp-controller="Demo" asp-action="Index">Demo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="main"></div>
+           
+            <div id="content">
+                @RenderBody()
+            </div>
+            <div id="sidebar">
+                <div>
+                 @await Component.InvokeAsync(typeof(RememberedVouchers))
+                </div>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+                <Website-Info info="new WebsiteInfo {                                   
+                                    CopyrightYear = 2016,
+                                    Company = Integrations}" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

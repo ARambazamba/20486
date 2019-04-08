@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Cupcakes.Data
 {
+    //dotnet ef migrations add MIGRATION-NAME
+    //dotnet ef database update
     public class CupcakeContext : DbContext
     {
         public CupcakeContext(DbContextOptions<CupcakeContext> options) : base(options)
