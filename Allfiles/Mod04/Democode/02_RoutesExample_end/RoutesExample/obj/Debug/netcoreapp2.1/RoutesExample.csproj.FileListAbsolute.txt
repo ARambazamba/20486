@@ -1,0 +1,14 @@
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\bin\Debug\netcoreapp2.1\RoutesExample.deps.json
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\bin\Debug\netcoreapp2.1\RoutesExample.runtimeconfig.json
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\bin\Debug\netcoreapp2.1\RoutesExample.runtimeconfig.dev.json
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\bin\Debug\netcoreapp2.1\RoutesExample.dll
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\bin\Debug\netcoreapp2.1\RoutesExample.pdb
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.csprojAssemblyReference.cache
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.csproj.CoreCompileInputs.cache
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.RazorAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.RazorAssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.AssemblyInfoInputs.cache
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.AssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.RazorTargetAssemblyInfo.cache
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.dll
+G:\Classes\20486D\Allfiles\Mod04\Democode\02_RoutesExample_end\RoutesExample\obj\Debug\netcoreapp2.1\RoutesExample.pdb
