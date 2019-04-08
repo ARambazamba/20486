@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj",
         "projectName": "NpmExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\NpmExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod08\\Democode\\02_NpmExample_end\\NpmExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

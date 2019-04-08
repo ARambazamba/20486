@@ -1,0 +1,11 @@
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\bin\Debug\netcoreapp2.2\NodeAsDevTool.deps.json
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\bin\Debug\netcoreapp2.2\NodeAsDevTool.runtimeconfig.json
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\bin\Debug\netcoreapp2.2\NodeAsDevTool.runtimeconfig.dev.json
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\bin\Debug\netcoreapp2.2\NodeAsDevTool.dll
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\bin\Debug\netcoreapp2.2\NodeAsDevTool.pdb
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.csprojAssemblyReference.cache
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.csproj.CoreCompileInputs.cache
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.AssemblyInfoInputs.cache
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.AssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.dll
+G:\Classes\20486D\Allfiles\Mod09\Democode\00 NodeDevToolCore\NodeAsDevTool\obj\Debug\netcoreapp2.2\NodeAsDevTool.pdb

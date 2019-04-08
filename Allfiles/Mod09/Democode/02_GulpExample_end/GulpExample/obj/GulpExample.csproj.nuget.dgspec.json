@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "g:\\Classes\\20486D\\Allfiles\\Mod09\\Democode\\02_GulpExample_end\\GulpExample\\GulpExample.csproj": {}
+  },
+  "projects": {
+    "g:\\Classes\\20486D\\Allfiles\\Mod09\\Democode\\02_GulpExample_end\\GulpExample\\GulpExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod09\\Democode\\02_GulpExample_end\\GulpExample\\GulpExample.csproj",
+        "projectName": "GulpExample",
+        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod09\\Democode\\02_GulpExample_end\\GulpExample\\GulpExample.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod09\\Democode\\02_GulpExample_end\\GulpExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

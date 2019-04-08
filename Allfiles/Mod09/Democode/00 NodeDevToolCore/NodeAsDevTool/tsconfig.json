@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "exclude": [
+      "node_modules"
+    ],
+    "compilerOptions": {
+      "lib": [
+        "dom",
+        "es5",
+        "scripthost",
+        "es2015.iterable"
+      ],
+      "target": "es5",
+      "sourceMap": true,
+      "rootDir": "./wwwroot/",
+      "module": "commonjs",
+      "typeRoots": ["node_modules/@types"],
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "removeComments": true,
+      "allowJs": false
+    }
+  }

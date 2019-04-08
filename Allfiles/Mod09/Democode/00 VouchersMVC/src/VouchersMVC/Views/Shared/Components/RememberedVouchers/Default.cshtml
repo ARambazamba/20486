@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Voucher>
+<div style="padding: 10px; margin: 10px; background: lavender">
+    <h4>Remembered Vouchers - Click to Edit</h4>
+    <ul>
+        @foreach (var v in Model)
+        {
+            <li>
+                <a asp-controller="Voucher" asp-action="Edit" asp-route-id="@v.ID">@v.Text</a>
+            </li>
+        }
+    </ul>
+</div>

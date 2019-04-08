@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Node.js as Dev-Tool</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>    
+    <link href="css/demo.css" rel="stylesheet"/>
+    <script src="demos.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>    
+    <script src="lib/moment/moment.js"></script>
+</head>
+<body>
+    <div id="demoContainer" class="container-fluid">
+        <div class="row">
+            <header class="header" md->
+                <h3>Node.js as Dev Tool - Demos</h3><br/>
+            </header>
+        </div>
+        <div class="row">
+            <div class="demoMenu col-xs-3">
+                <div id="status">Please choose:</div>
+                <a href="#" onclick="javascript:loadDemo('demos/gulp.html', this, false);">Use Gulp</a>
+                <a href="#" onclick="javascript:loadDemo('demos/babel.html', this, false);">Use Babel</a>
+                <a href="#" onclick="javascript:loadDemo('demos/webpack/basics.html', this, false);">Use Webpack</a>
+                <a href="#" onclick="javascript:loadDemo('demos/sass.html', this, false);">Use Sass</a>
+                <a href="#" onclick="javascript:loadDemo('demos/linting.html', this, false);">Use Linting</a>
+                <a href="#" onclick="javascript:loadDemo('demos/types.html', this, true);">Using 3rd Party Types</a>
+            </div>
+            <div class="workbench col-xs-8 col-xs-offset-1"></div>
+        </div>
+    </div>
+</body>
+</html>

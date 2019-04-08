@@ -1,0 +1,303 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.8.1",
+  "hash": "e7d751782c044415393f",
+  "time": 2041,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "app": "./wwwroot/demos/webpack/js/bundle.js"
+  },
+  "assets": [
+    {
+      "name": "./wwwroot/demos/webpack/js/bundle.js",
+      "size": 6786,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "app": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "./wwwroot/demos/webpack/js/bundle.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 1606,
+      "names": [
+        "app"
+      ],
+      "files": [
+        "./wwwroot/demos/webpack/js/bundle.js"
+      ],
+      "hash": "454db552fe11ce1b3c7b",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "name": "./app.js",
+          "index": 0,
+          "index2": 2,
+          "size": 197,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 62,
+            "building": 1827
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "\"use strict\";\n\nvar _login = require(\"./login.js\");\n\nvar _utils = require(\"./utils.js\");\n\ndebugger;\n(0, _login.login)('admin', 'pwd');\n\nvar u = new _utils.Utils();\nu.log(\"all loaded and executed!\");"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\login.js",
+          "name": "./login.js",
+          "index": 1,
+          "index2": 0,
+          "size": 341,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "issuerId": 0,
+          "issuerName": "./app.js",
+          "profile": {
+            "factory": 4,
+            "building": 33
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+              "module": "./app.js",
+              "moduleName": "./app.js",
+              "type": "cjs require",
+              "userRequest": "./login.js",
+              "loc": "3:13-34"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar login = function login(usrname, password) {\n    if (usrname !== 'admin' || password !== 'pwd') {\n        console.log('incorrect login');\n    } else {\n        console.log('logged in using ' + usrname + ' and ' + password);\n    }\n};\n\nexports.login = login;"
+        },
+        {
+          "id": 2,
+          "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\utils.js",
+          "name": "./utils.js",
+          "index": 2,
+          "index2": 1,
+          "size": 1068,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "issuerId": 0,
+          "issuerName": "./app.js",
+          "profile": {
+            "factory": 4,
+            "building": 91
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+              "module": "./app.js",
+              "moduleName": "./app.js",
+              "type": "cjs require",
+              "userRequest": "./utils.js",
+              "loc": "5:13-34"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Utils = exports.Utils = function () {\n    function Utils() {\n        _classCallCheck(this, Utils);\n    }\n\n    _createClass(Utils, [{\n        key: \"log\",\n        value: function log(msg) {\n            console.log(msg);\n        }\n    }]);\n\n    return Utils;\n}();"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "moduleIdentifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "moduleName": "./app.js",
+          "loc": "",
+          "name": "app",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+      "name": "./app.js",
+      "index": 0,
+      "index2": 2,
+      "size": 197,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 62,
+        "building": 1827
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "\"use strict\";\n\nvar _login = require(\"./login.js\");\n\nvar _utils = require(\"./utils.js\");\n\ndebugger;\n(0, _login.login)('admin', 'pwd');\n\nvar u = new _utils.Utils();\nu.log(\"all loaded and executed!\");"
+    },
+    {
+      "id": 1,
+      "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\login.js",
+      "name": "./login.js",
+      "index": 1,
+      "index2": 0,
+      "size": 341,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+      "issuerId": 0,
+      "issuerName": "./app.js",
+      "profile": {
+        "factory": 4,
+        "building": 33
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "module": "./app.js",
+          "moduleName": "./app.js",
+          "type": "cjs require",
+          "userRequest": "./login.js",
+          "loc": "3:13-34"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar login = function login(usrname, password) {\n    if (usrname !== 'admin' || password !== 'pwd') {\n        console.log('incorrect login');\n    } else {\n        console.log('logged in using ' + usrname + ' and ' + password);\n    }\n};\n\nexports.login = login;"
+    },
+    {
+      "id": 2,
+      "identifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\utils.js",
+      "name": "./utils.js",
+      "index": 2,
+      "index2": 1,
+      "size": 1068,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+      "issuerId": 0,
+      "issuerName": "./app.js",
+      "profile": {
+        "factory": 4,
+        "building": 91
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\node_modules\\babel-loader\\lib\\index.js??ref--0-0!D:\\Classes\\PCWD\\03 Node.js\\NodeAsDevTool\\NodeAsDevTool\\wwwroot\\demos\\webpack\\js\\app.js",
+          "module": "./app.js",
+          "moduleName": "./app.js",
+          "type": "cjs require",
+          "userRequest": "./utils.js",
+          "loc": "5:13-34"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Utils = exports.Utils = function () {\n    function Utils() {\n        _classCallCheck(this, Utils);\n    }\n\n    _createClass(Utils, [{\n        key: \"log\",\n        value: function log(msg) {\n            console.log(msg);\n        }\n    }]);\n\n    return Utils;\n}();"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
