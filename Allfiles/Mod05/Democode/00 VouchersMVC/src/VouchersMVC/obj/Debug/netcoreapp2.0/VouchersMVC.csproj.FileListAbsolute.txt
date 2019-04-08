@@ -1,0 +1,11 @@
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\bin\Debug\netcoreapp2.0\Vouchers.deps.json
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\bin\Debug\netcoreapp2.0\Vouchers.runtimeconfig.json
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\bin\Debug\netcoreapp2.0\Vouchers.runtimeconfig.dev.json
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\bin\Debug\netcoreapp2.0\Vouchers.dll
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\bin\Debug\netcoreapp2.0\Vouchers.pdb
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\VouchersMVC.csprojAssemblyReference.cache
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\VouchersMVC.csproj.CoreCompileInputs.cache
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\VouchersMVC.AssemblyInfoInputs.cache
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\VouchersMVC.AssemblyInfo.cs
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\Vouchers.dll
+G:\Classes\PCWD\08 MVC\VouchersMVC\src\VouchersMVC\obj\Debug\netcoreapp2.0\Vouchers.pdb

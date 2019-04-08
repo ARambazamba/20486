@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
