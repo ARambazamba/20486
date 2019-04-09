@@ -1,0 +1,17 @@
+﻿@model  Vouchers.Voucher
+
+@{}
+<h3>Submit Demo</h3>
+@using (Html.BeginForm())
+{
+    <label for="VoucherText"></label>
+    <input id="VoucherText" asp-for="Text" />
+    <br />
+    <label for="VoucherDate"></label>
+    <input id="VoucherDate" type="text" asp-for="Date" />
+    <br />
+    <label for="VoucherAmount"></label>
+    <input id="VoucherAmount" type="number" asp-for="Amount" />
+    <p></p>
+    <input type="submit" value="Save Voucher" />
+}

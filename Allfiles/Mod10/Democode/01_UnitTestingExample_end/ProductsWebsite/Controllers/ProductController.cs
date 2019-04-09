@@ -25,7 +25,7 @@ namespace ProductsWebsite.Controllers
         public IActionResult GetProduct(int id)
         {
             var products = _repository.GetProducts();
-            var product = products.Where(p => p.Id == id).FirstOrDefault();
+            var product = products.FirstOrDefault(p => p.Id == id);
             return View(product);
         }
 
