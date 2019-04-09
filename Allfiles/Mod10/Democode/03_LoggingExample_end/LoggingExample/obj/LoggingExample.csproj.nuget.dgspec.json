@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {}
+  },
+  "projects": {
+    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
+        "projectName": "LoggingExample",
+        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0-dev-00024, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
