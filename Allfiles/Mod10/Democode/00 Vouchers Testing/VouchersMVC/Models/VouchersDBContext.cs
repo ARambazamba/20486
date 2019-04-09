@@ -9,8 +9,6 @@ namespace Vouchers
 
     public class VouchersDBContext : DbContext
     {
-        private VouchersConfig config;
-
         public VouchersDBContext(DbContextOptions<VouchersDBContext> options) : base(options)
         {
         }

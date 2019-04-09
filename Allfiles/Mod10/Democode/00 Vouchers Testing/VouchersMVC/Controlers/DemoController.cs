@@ -14,9 +14,10 @@ namespace Vouchers
 
         private VouchersDBContext ctx;
 
-        public Demo(IVouchersRepository repository)
+        public Demo(IVouchersRepository repository, VouchersDBContext dbcontext)
         {
             rep = repository;
+            ctx = dbcontext;
         }
 
         public IActionResult Index()

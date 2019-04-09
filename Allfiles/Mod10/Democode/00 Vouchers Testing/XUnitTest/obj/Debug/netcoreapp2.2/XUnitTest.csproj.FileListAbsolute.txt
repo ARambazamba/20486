@@ -17,3 +17,22 @@ G:\Classes\20486D\Allfiles\Mod10\Democode\00 VouchersMVC\XUnitTest\bin\Debug\net
 G:\Classes\20486D\Allfiles\Mod10\Democode\00 VouchersMVC\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.dll
 G:\Classes\20486D\Allfiles\Mod10\Democode\00 VouchersMVC\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.pdb
 G:\Classes\20486D\Allfiles\Mod10\Democode\00 VouchersMVC\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.csproj.CopyComplete
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.Views.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\XUnitTest.deps.json
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\XUnitTest.runtimeconfig.json
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\XUnitTest.runtimeconfig.dev.json
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\XUnitTest.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\XUnitTest.pdb
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\bin\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.csprojAssemblyReference.cache
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.csproj.CoreCompileInputs.cache
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.AssemblyInfoInputs.cache
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.AssemblyInfo.cs
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.csproj.CopyComplete
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.dll
+G:\Classes\20486D\Allfiles\Mod10\Democode\00 Vouchers Testing\XUnitTest\obj\Debug\netcoreapp2.2\XUnitTest.pdb
