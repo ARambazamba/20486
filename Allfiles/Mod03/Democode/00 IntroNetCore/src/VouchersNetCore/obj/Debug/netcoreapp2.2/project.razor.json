@@ -1,0 +1,21 @@
+{
+  "FilePath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "Vouchers",
+  "Documents": [
+    {
+      "FilePath": "Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ]
+}

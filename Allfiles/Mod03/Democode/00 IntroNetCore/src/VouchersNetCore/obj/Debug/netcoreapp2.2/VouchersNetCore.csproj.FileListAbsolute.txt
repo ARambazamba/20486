@@ -1,0 +1,68 @@
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.deps.json
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.json
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.dev.json
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.dll
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CoreCompileInputs.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cs
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfoInputs.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfo.cs
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.input.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.output.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorCoreGenerate.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cache
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cs
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\PCWD\02 ASP.NET Core Basics\VouchersNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CopyComplete
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.deps.json
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.json
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.dev.json
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.dll
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csprojAssemblyReference.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CoreCompileInputs.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfoInputs.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.input.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.output.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorCoreGenerate.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cache
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\20487D\AllFiles\Mod01\IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CopyComplete
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.deps.json
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.json
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.runtimeconfig.dev.json
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.dll
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\bin\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csprojAssemblyReference.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CoreCompileInputs.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorAssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfoInputs.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.AssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.input.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.TagHelpers.output.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorCoreGenerate.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cache
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.RazorTargetAssemblyInfo.cs
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.Views.pdb
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.dll
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\Vouchers.pdb
+G:\Classes\20487D\AllFiles\Mod01\Demos\01 IntroNetCore\src\VouchersNetCore\obj\Debug\netcoreapp2.2\VouchersNetCore.csproj.CopyComplete
