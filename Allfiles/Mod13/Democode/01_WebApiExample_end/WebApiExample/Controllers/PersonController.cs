@@ -29,7 +29,7 @@ namespace WebApiExample.Controllers
             return _people;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]        
         public ActionResult<Person> GetPersonById(int id)
         {
             var person = _people.FirstOrDefault(p => p.Id == id);

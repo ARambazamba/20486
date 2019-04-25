@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj",
         "projectName": "WebApiExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\WebApiExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod13\\Democode\\01_WebApiExample_end\\WebApiExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
