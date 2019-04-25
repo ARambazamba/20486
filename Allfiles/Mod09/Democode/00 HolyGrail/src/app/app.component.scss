@@ -1,0 +1,59 @@
+@import "varsAndMixins";
+
+.mainView {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.mainRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: $mainHeight + $barHeight;
+}
+
+.colSpacer {
+  min-width: $spacePad;
+  background-color: $barCol;
+}
+
+.main {
+  @include sidePadding;
+  @include topPadding;
+  flex: 4;
+  min-width: $panelWith;
+  background-color: yellow;
+}
+
+.sidebar {
+  @include sidePadding;
+  @include topPadding;
+  flex: 4;
+  min-width: $panelWith;
+  background-color: yellow;
+}
+
+.footer {
+  //   @include bar;
+  display: none;
+  background-color: blue;
+}
+
+@media screen and (max-width: 660px) {
+  .mainRow {
+    height: $mainHeight;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .colSpacer {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+}

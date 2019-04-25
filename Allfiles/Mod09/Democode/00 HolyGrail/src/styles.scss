@@ -1,0 +1,18 @@
+@import "varsAndMixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: $bodyCol;
+}

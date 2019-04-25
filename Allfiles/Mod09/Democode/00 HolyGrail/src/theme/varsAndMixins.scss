@@ -1,0 +1,31 @@
+$barHeight: 8vh;
+$mainHeight: 84vh;
+
+$defPad: 10px;
+$smallPad: 5px;
+$spacePad: 15px;
+
+$barCol: #bebebe;
+$bodyCol: whitesmoke;
+
+$breakpoint: 600px;
+$panelWith: 300px;
+
+@mixin sidePadding {
+  padding-left: $defPad;
+  padding-right: $defPad;
+}
+
+@mixin topPadding {
+  padding-top: $defPad;
+}
+
+@mixin bar {
+  height: $barHeight;
+  background-color: $barCol;
+}
+
+@mixin spaceFlexItem {
+  margin: $defPad;
+  padding: $smallPad;
+}

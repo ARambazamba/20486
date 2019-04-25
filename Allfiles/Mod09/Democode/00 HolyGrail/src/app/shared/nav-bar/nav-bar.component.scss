@@ -1,0 +1,71 @@
+@import "varsAndMixins";
+
+:host {
+  display: flex;
+  flex-direction: row;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  // align-items: center;
+  height: $barHeight;
+  width: 100%;
+}
+
+.navLogo {
+  // @include spaceFlexItem;
+  flex: 1;
+  flex-grow: 1;
+  text-align: center;
+  background-color: yellow;
+  background: url(../../../assets/images/smartDwarf.png) no-repeat center center;
+}
+
+.navMenu {
+  // @include spaceFlexItem;
+  flex: 10;
+  flex-grow: 10;
+  background-color: greenyellow;
+
+  a {
+    padding-left: $defPad;
+  }
+
+  div {
+    @media (max-width: $breakpoint) {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.menuItem {
+  min-width: 50px;
+  background-color: yellow;
+  margin: $defPad;
+}
+
+.menuIcon {
+  visibility: hidden;
+}
+
+//Notice the different syntax for media queries: nested - grouped
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+
+  @media (max-width: $breakpoint) {
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .menuIcon {
+    visibility: visible;
+  }
+
+  .menuItem {
+    float: right;
+  }
+}

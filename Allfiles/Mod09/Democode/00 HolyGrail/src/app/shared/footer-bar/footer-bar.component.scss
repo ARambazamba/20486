@@ -1,0 +1,24 @@
+@import "varsAndMixins";
+
+$footerItem: 50px;
+
+:host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footerItem {
+  @include spaceFlexItem;
+  width: $footerItem;
+  height: $footerItem;
+  background-color: yellow;
+}

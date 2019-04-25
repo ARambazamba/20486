@@ -1,0 +1,9 @@
+<div class="navBar">
+  <div class="navLogo"></div>
+  <div class="navMenu">
+    <div class="menuContainer">
+      <a *ngFor="let li of links" [routerLink]="['', li.Link]" class="menuItem">{{li.Title}}</a>
+      <a class="menuItem menuIcon">M</a>
+    </div>
+  </div>
+</div>
