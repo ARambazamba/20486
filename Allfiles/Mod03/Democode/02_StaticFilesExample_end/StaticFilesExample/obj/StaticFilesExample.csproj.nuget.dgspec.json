@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj",
         "projectName": "StaticFilesExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\StaticFilesExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\02_StaticFilesExample_end\\StaticFilesExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

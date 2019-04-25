@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj",
         "projectName": "BindViewsExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\BindViewsExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\01_BindViewsExample_end\\BindViewsExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj",
         "projectName": "ControllersExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\ControllersExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod04\\Democode\\01_ControllersExample_end\\ControllersExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

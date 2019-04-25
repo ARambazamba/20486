@@ -18,8 +18,9 @@ namespace Vouchers
                 var a5 = new BalanceAccount { Name = "Training", Expense = false };
                 var a6 = new BalanceAccount { Name = "Software", Expense = true };
                 var a7 = new BalanceAccount { Name = "Hosting & Internet", Expense = true };
+                var a8 = new BalanceAccount { Name = "Büromaterial", Expense = true };
 
-                context.BalanceAccounts.AddRange(a1, a2, a3, a4, a5, a6, a7);
+                context.BalanceAccounts.AddRange(a1, a2, a3, a4, a5, a6, a7, a8);
                 context.SaveChanges();
 
                 var v1 = new Voucher

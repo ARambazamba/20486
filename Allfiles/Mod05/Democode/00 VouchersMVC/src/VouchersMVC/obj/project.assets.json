@@ -10024,11 +10024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\VouchersMVC.csproj",
+      "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\VouchersMVC.csproj",
       "projectName": "Vouchers",
-      "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\VouchersMVC.csproj",
+      "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\VouchersMVC.csproj",
       "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod01\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\obj\\",
+      "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\00 VouchersMVC\\src\\VouchersMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

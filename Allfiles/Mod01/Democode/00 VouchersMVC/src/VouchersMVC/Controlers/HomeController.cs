@@ -10,7 +10,7 @@ namespace Vouchers
     {
         public IActionResult Index()
         {
-            ViewBag.Title = "The Vouchers App";
+            ViewBag.Title = "The Vouchers Api";
             return View();
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj",
         "projectName": "Vouchers",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\VouchersNetCore.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\00 IntroNetCore\\src\\VouchersNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

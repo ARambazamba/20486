@@ -10336,11 +10336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\ProductsWebsite.Tests.csproj",
+      "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\ProductsWebsite.Tests.csproj",
       "projectName": "ProductsWebsite.Tests",
-      "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\ProductsWebsite.Tests.csproj",
+      "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\ProductsWebsite.Tests.csproj",
       "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\obj\\",
+      "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10359,8 +10359,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite\\ProductsWebsite.csproj": {
-              "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite\\ProductsWebsite.csproj"
+            "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite\\ProductsWebsite.csproj": {
+              "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\01_UnitTestingExample_end\\ProductsWebsite\\ProductsWebsite.csproj"
             }
           }
         }

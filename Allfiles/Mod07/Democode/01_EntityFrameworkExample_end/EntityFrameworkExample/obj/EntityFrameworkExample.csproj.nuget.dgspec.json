@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj",
         "projectName": "EntityFrameworkExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\EntityFrameworkExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod07\\Democode\\01_EntityFrameworkExample_end\\EntityFrameworkExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

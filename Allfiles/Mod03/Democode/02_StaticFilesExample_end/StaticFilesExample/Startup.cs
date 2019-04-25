@@ -18,10 +18,10 @@ namespace StaticFilesExample
         public void Configure(IApplicationBuilder app)
         {
 
-            // var options = new DefaultFilesOptions();
-            // options.DefaultFileNames.Clear();
-            // options.DefaultFileNames.Add("html-file.html");
-            // app.UseDefaultFiles(options);
+            var options = new DefaultFilesOptions();
+            options.DefaultFileNames.Clear();
+            options.DefaultFileNames.Add("html-file.html");
+            app.UseDefaultFiles(options);
 
             app.UseStaticFiles();
             app.Run(async (context) =>

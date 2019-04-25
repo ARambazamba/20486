@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj",
         "projectName": "ErrorHandlingExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\ErrorHandlingExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\02_ErrorHandlingExample_end\\ErrorHandlingExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

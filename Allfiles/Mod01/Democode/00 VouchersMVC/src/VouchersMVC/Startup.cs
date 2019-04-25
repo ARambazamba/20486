@@ -62,10 +62,8 @@ namespace Vouchers
             });
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, VouchersDBContext dbcontext)
-        {
-            loggerFactory.AddConsole();
-
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        {            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

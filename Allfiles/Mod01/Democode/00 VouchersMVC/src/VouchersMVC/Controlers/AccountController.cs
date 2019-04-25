@@ -49,6 +49,7 @@ namespace Vouchers
         {
             if (ModelState.IsValid)
             {
+                //Pattern typically used with DTOs
                 var a = ctx.BalanceAccounts.FirstOrDefault(f => f.ID == Id);
                 if (a != null)
                 {

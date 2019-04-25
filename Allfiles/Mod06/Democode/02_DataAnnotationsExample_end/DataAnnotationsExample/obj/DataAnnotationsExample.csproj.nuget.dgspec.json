@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj",
         "projectName": "DataAnnotationsExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\DataAnnotationsExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod06\\Democode\\02_DataAnnotationsExample_end\\DataAnnotationsExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

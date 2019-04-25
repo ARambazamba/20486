@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj",
         "projectName": "ConfigureServiceExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\ConfigureServiceExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod03\\Democode\\03_ConfigureServiceExample_end\\ConfigureServiceExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

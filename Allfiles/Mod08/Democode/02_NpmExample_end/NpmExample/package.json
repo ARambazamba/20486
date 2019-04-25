@@ -2,8 +2,11 @@
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  },
   "dependencies": {
-    "jquery": "3.3.1"
+    "jquery": "3.3.1",
+    "moment": "^2.24.0"
   }
 }

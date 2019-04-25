@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
         "projectName": "LoggingExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\LoggingExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod10\\Democode\\03_LoggingExample_end\\LoggingExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

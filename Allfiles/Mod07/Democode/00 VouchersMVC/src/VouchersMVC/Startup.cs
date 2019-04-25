@@ -31,20 +31,15 @@ namespace Vouchers
             string conStr = configuration["ConnectionStrings:SQLServerDBConnection"];
 
             services.AddSingleton(typeof(IConfigurationRoot), configuration);
+
             services.AddEntityFrameworkSqlServer()
                 .AddDbContext<VouchersDBContext>(options => options.UseSqlServer(conStr));
+
             services.AddScoped<IVouchersRepository, VouchersRepository>();
+
             services.AddTransient<BalanceService>();
 
             //CORS
-            var corsBuilder = new CorsPolicyBuilder();
-            corsBuilder.AllowAnyHeader();
-            corsBuilder.AllowAnyMethod();
-            corsBuilder.AllowAnyOrigin();
-            // For specific URL 
-            // corsBuilder.WithOrigins("http://localhost:4200")
-            corsBuilder.AllowCredentials();
-
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",

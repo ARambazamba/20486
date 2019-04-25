@@ -20,7 +20,7 @@ function initDatePicker() {
 
 function setDetail(id) {
     var vds = data.Details.filter(function (el) {
-        return el.ID == id;
+        return el.ID == id;  
     });
 
     if (vds.length > 0) {

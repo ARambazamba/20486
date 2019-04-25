@@ -16,13 +16,13 @@
     <div class="container">
         <h1>Submit Personal Information</h1>
         <form asp-action="Details">
-            <div asp-validation-summary="All"></div>
+            <div asp-validation-summary="All" style="background-color: lavender"></div>
             <div class="form-field">
                 <label asp-for="FirstName"></label>
-                <span class="input-span">
+                <div class="input-span">
                     <input asp-for="FirstName" />
                     <span asp-validation-for="FirstName"></span>
-                </span>
+                </div>
             </div>
             <div class="form-field">
                 <label asp-for="LastName"></label>

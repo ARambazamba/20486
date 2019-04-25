@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj",
         "projectName": "PartialViewsExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\PartialViewsExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod05\\Democode\\04_PartialViewsExample_end\\PartialViewsExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
