@@ -1,0 +1,24 @@
+<div>
+  <div class="addRow">
+    <label>Add a Skill:</label><input type="text" [(ngModel)]="skillToAdd" />
+    <a href="#" (click)="addSkill()">Add Skill</a>
+  </div>
+  <div>Here are the skills</div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let s of skills" (click)="removeSkill(s)">
+          <td>{{ s.id }}</td>
+          <td>{{ s.name }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Click to remove a skill</p>
+  </div>
+</div>

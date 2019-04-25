@@ -1,0 +1,19 @@
+services:
+  skillsapi:
+    build:
+      context: G:\Classes\modenWebStack\00 SkillsApi\SkillsApi
+      dockerfile: SkillsApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44310'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: skillsapi
+    ports:
+    - published: 2108
+      target: 80
+    - published: 44310
+      target: 443
+    volumes:
+    - C:\Users\Alexander\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alexander\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

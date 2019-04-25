@@ -1,0 +1,24 @@
+tr {
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+
+  tr :hover {
+    text-decoration: underline;
+  }
+}
+
+.addRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+  background: #c3002f;
+  color: white;
+  padding: 1rem;
+
+  a {
+    color: white;
+  }
+}
