@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj": {}
+    "G:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj": {}
   },
   "projects": {
-    "g:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj": {
+    "G:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj",
+        "projectUniqueName": "G:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj",
         "projectName": "IdentityExample",
-        "projectPath": "g:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj",
+        "projectPath": "G:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\IdentityExample.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "g:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\obj\\",
+        "outputPath": "G:\\Classes\\20486D\\Allfiles\\Mod11\\Democode\\01_IdentityExample_end\\IdentityExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
